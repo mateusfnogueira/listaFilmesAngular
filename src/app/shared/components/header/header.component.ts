@@ -6,8 +6,8 @@ import { MatSidenav } from '@angular/material/sidenav';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
 })
-export class TopoComponent implements OnInit {
-  @ViewChild('sidenav', { static: false }) sidenav!: MatSidenav;
+export class HeaderComponent implements OnInit {
+  @ViewChild('sidenav', { static: false }) sidenav: MatSidenav;
 
   constructor() {}
 
