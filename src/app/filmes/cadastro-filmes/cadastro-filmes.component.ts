@@ -14,9 +14,9 @@ import { Alerta } from 'src/app/shared/models/alerta';
   styleUrls: ['./cadastro-filmes.component.scss'],
 })
 export class CadastroFilmesComponent implements OnInit {
-  id!: number;
-  cadastro!: FormGroup;
-  generos!: Array<string>;
+  id: number;
+  cadastro: FormGroup;
+  generos: Array<string>;
 
   constructor(
     public validacao: ValidarCamposService,
